@@ -1,0 +1,27 @@
+.container{
+  width: 80vw;
+  margin: 0 auto;
+}
+
+header{
+  height: $head_spacing;
+  border-bottom: 1px solid black;
+
+  img{
+    height: $head_spacing;
+    padding: 10px;
+  }
+
+  nav{
+
+    float: right;
+
+    a{
+      line-height: $head_spacing;
+      padding: 0 10px;
+    }
+
+
+  }
+
+}
